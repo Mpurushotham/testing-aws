@@ -165,7 +165,7 @@ const IamVisualizer: React.FC = () => {
             Policy Evaluation Logic
           </h3>
           <p className="text-slate-400 text-sm mt-1">
-            Visualizing the decision flow: Deny > SCP > Boundary > Identity.
+            Visualizing the decision flow: Deny &gt; SCP &gt; Boundary &gt; Identity.
           </p>
         </div>
         <button 

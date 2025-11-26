@@ -124,7 +124,7 @@ export const Infrastructure: React.FC = () => {
           <h4 className="font-bold text-white mb-2 flex items-center gap-2"><Lock className="text-green-500" size={18} /> VPC Endpoints (PrivateLink)</h4>
           <p className="text-sm text-slate-400 mb-4">Keep traffic off the public internet.</p>
           <div className="bg-slate-900 p-3 rounded border border-slate-800 text-xs text-slate-300 font-mono">
-            EC2 Instance --[Private Network]--> S3 Endpoint --[AWS Backbone]--> S3 Bucket
+            EC2 Instance --[Private Network]--&gt; S3 Endpoint --[AWS Backbone]--&gt; S3 Bucket
           </div>
           <p className="text-xs text-slate-500 mt-2">Never use an Internet Gateway for S3/DynamoDB access if you don't have to.</p>
         </div>
